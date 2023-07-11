@@ -1,0 +1,252 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #f5f5f5;
+}
+body .container {
+  width: 1100px;
+  margin: 0 auto;
+}
+body .container header {
+  width: 100%;
+  height: 80px;
+  padding: 21px 0;
+  background: #f5f5f5;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+body .container header img {
+  vertical-align: middle;
+}
+body .container header ul {
+  display: inline-block;
+  vertical-align: middle;
+}
+body .container header ul li {
+  display: inline-block;
+  margin-right: 35px;
+}
+body .container header ul li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 13px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+section {
+  padding-top: 20px;
+  margin-top: 80px;
+}
+section h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+section .card {
+  display: inline-block;
+  width: 323px;
+  margin-right: 40px;
+  position: relative;
+  background: #ffffff;
+  border-radius: 0px 0px 5px 5px;
+}
+section .card .card-header {
+  display: inline-block;
+}
+section .card .card-header p {
+  position: absolute;
+  top: 32px;
+  left: 41px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+section .card .card-header .card-image {
+  width: 100%;
+  height: 186px;
+}
+section .card .card_main-content {
+  height: 171px;
+  padding-top: 68px;
+  padding-left: 30px;
+}
+section .card .card_main-content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+  color: #8A8787;
+  margin-bottom: 10px;
+}
+section .card .mAgo {
+  display: inline-block;
+  margin-left: 11px;
+}
+
+.section_2 {
+  margin-top: 270px;
+  margin-left: 0px;
+  width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+}
+.section_2 h3 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 30px;
+  margin-left: 0px;
+}
+.section_2 .parent {
+  display: inline-block;
+  position: relative;
+}
+.section_2 .parent h4 {
+  font-size: 25px;
+  color: white;
+  font-weight: 700px;
+  position: absolute;
+  top: 205px;
+  left: 250px;
+  z-index: 500;
+  display: inline-block;
+}
+.section_2 .parent .image1 {
+  display: flex;
+  width: 680px;
+}
+.section_2 .parent .class2 {
+  display: block;
+  margin-top: 42px;
+  width: 680px;
+}
+.section_2 .photos {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 56px;
+  border-radius: 5px;
+  margin-left: 735px;
+  margin-top: -825px;
+}
+.section_2 .photos .img {
+  width: 325px;
+  height: 212px;
+}
+.section_2 .photos .elephant {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+footer {
+  height: 201px;
+  background-color: #243043;
+}
+footer .footer {
+  height: 100%;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer .left {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+footer .footer .left .list {
+  margin-right: 75px;
+}
+footer .footer .left .list p {
+  color: #818687;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 14px;
+  margin-left: 53px;
+}
+footer .footer .left p {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=global.css.map */
